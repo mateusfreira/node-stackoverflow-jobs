@@ -3,6 +3,8 @@ Stackoverflow Jobs
 
 [![Build Status](https://travis-ci.org/mateusfreira/node-stackoverflow-jobs.svg?branch=master)](https://travis-ci.org/mateusfreira/node-stackoverflow-jobs)
 
+[![Coverage Status](https://coveralls.io/repos/mateusfreira/node-stackoverflow-jobs/badge.svg?branch=master&service=github)](https://coveralls.io/github/mateusfreira/node-stackoverflow-jobs?branch=master)
+
 
 Stackoverflow Jobs rss wrapper purely written in Node.js
 
