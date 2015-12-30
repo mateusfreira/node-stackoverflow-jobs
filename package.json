@@ -1,0 +1,31 @@
+{
+  "name": "stackoverflow-jobs",
+  "version": "0.0.1",
+  "description": "Stackoverflow wrapper purely written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mateusfreira/stackoverflow-jobs.git"
+  },
+  "keywords": [
+    "jobs",
+    "rss",
+    "json"
+  ],
+  "author": "Mateus Freira dos Santso <mateus.freira@gmail.com> (http://www.github.com/mateusfreira)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateusfreira/stackoverflow-jobs/issues"
+  },
+  "homepage": "https://github.com/mateusfreira/stackoverflow-jobs#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.4",
+    "q": "^1.4.1",
+    "request-promise": "^1.0.2",
+    "xml2js": "^0.4.15"
+  }
+}
