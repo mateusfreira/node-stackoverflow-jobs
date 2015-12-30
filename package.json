@@ -1,7 +1,7 @@
 {
   "name": "stackoverflow-jobs",
   "version": "0.0.1",
-  "description": "Stackoverflow wrapper purely written in Node.js",
+  "description": "Stackoverflow jobs wrapper purely written in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha test/",
