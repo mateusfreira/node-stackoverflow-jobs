@@ -4,11 +4,11 @@
   "description": "Stackoverflow wrapper purely written in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node_modules/mocha/bin/mocha test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mateusfreira/stackoverflow-jobs.git"
+    "url": "git+ssh://git@github.com/mateusfreira/node-stackoverflow-jobs.git"
   },
   "keywords": [
     "jobs",
