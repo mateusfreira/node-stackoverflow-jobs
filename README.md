@@ -51,3 +51,7 @@ stackoverflowJobs.search({allowsremote : true, offersrelocation: true, location:
   location:'location as string'
 }
 ```
+
+
+## Issues / Bugs
+Please feel free to open a new issue ticket if any occures. I love pull requests so they are also welcome. Before making it out the issue, please do unit tests for your code.
