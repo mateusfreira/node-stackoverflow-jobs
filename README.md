@@ -1,6 +1,9 @@
 Stackoverflow Jobs
 =============
 
+[![Build Status](https://travis-ci.org/mateusfreira/node-stackoverflow-jobs.svg?branch=master)](https://travis-ci.org/mateusfreira/node-stackoverflow-jobs)
+
+
 Stackoverflow Jobs rss wrapper purely written in Node.js
 
 
