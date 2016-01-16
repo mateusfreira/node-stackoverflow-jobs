@@ -12,10 +12,10 @@ var StackoverflowJobs = function(){
       title: item.title[0],
       description: item.description[0],
       pubDate: (item.pubDate ? new Date(item.pubDate[0]) : new Date()),
-      location : item.location[0]._
+      location : item.location ? item.location[0]._ : ""
     };
   };
-  var mapRssToJos = function(rss){
+  var mapRssToJob = function(rss){
     var channel = rss.channel[0];
     return {
             total : channel['os:totalResults'],
@@ -36,7 +36,7 @@ var StackoverflowJobs = function(){
       var defer = q.defer();
       parseString(result, function(err, obj){
           if(!err){
-            defer.resolve(mapRssToJos(obj.rss));
+            defer.resolve(mapRssToJob(obj.rss));
           }else{
               defer.reject(err);
           }
