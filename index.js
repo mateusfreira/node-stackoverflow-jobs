@@ -11,7 +11,7 @@ var StackoverflowJobs = function(){
       category: item.category,
       title: item.title[0],
       description: item.description[0],
-      pubDate: new Date(item.pubDate[0]),
+      pubDate: (item.pubDate ? new Date(item.pubDate[0]) : new Date()),
       location : item.location[0]._
     };
   };
