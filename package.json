@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-jobs",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Stackoverflow jobs wrapper purely written in Node.js",
   "main": "index.js",
   "scripts": {
