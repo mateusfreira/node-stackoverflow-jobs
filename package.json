@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-jobs",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Stackoverflow jobs wrapper purely written in Node.js",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/mateusfreira/node-stackoverflow-jobs#readme",
   "dependencies": {
-    "bluebird": "^3.3.5",
-    "lodash": "^3.10.1",
-    "request-promise": "^1.0.2",
+    "bluebird": "^3.5.3",
+    "lodash": ">=4.17.11",
+    "request-promise": "^4.2.4",
     "xml2js": "^0.4.15"
   },
   "devDependencies": {
-    "coveralls": "^2.11.6",
+    "coveralls": "^3.0.3",
     "istanbul": "^0.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^6.0.2"
   }
 }
